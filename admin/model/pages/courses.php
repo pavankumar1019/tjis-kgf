@@ -76,7 +76,7 @@
                                                                     <div class="d-flex">
                                                                         <div>
                                                                         <?php
-                                                                        if($row['photo']==""){
+                                                                        if($row['photo']!=""){
                                                                         ?>
                                                                          <img src="<?=$row['photo']?>" width="50px" alt=""> 
                                                                         <?php
