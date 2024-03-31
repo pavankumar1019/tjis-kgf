@@ -72,14 +72,43 @@
                                                                         </div>
                                                                     </div>
                                                                 </td>
+                                                                <td  class="p-4">
+                                                                    <div class="d-flex">
+                                                                        <div>
+                                                                        <img src="<?=$row['photo']?>" width="50px" alt="">    
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
 
                                                                 <td>
-                                                                    <img src="<?=$row['photo']?>" width="50px" alt="">
+                                                                   
                                                                     <h4>Name: <b><?=$row['full_name']?></b></h4>
                                                                     <h4>DOB: <b><?=$row['dob']?></b></h4>
                                                                     <h4>Gender: <b><?=$row['gender']?></b></h4>
                                                                     <h4><b><?=$row['nationality']?></b>, <b><?=$row['religion']?></b>, <b><?=$row['city_town']?></b></h4>
                                                                     <h4>Adress: <b><?=$row['address']?></b></h4>
+                                                                </td>
+                                                                <td>
+                                                                   
+                                                                    <h4>father_name: <b><?=$row['father_name']?></b></h4>
+                                                                    <h4>mother_name: <b><?=$row['mother_name']?></b></h4>
+                                                                    <h4>Gaurdian name: <b><?=$row['p_g_name']?></b></h4>
+                                                                    <h4>contact: <b><?=$row['contact']?></b></h4>
+                                                                    <h4>Alternate Contact: <b><?=$row['alt_contact']?></b></h4>
+                                                                  
+                                                                </td>
+                                                                <td>
+                                                                   
+                                                                    <h4><b><?=$row['pre_sch_name']?></b></h4>
+                                                                    <h4><b><?=$row['pre_sch_address']?></b></h4>
+                                                                    <h4><b><?=$row['class_last_attended']?></b></h4>
+                                                               
+                                                                  
+                                                                </td>
+                                                                <td>
+                                                                   
+                                                                    <h4><b><?=$row['grade_for_apply']?></b></h4>
+                                                                  
                                                                 </td>
 
 
