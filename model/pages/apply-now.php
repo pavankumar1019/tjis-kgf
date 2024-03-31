@@ -163,6 +163,8 @@
                 </div>
 
             </div>
+            <br>
+            <br>
             <div class="section-title">
             <p>Contact Information for Inquiries:</p>
 
