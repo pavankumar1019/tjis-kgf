@@ -63,14 +63,14 @@
                                         placeholder="Contact Number" required maxlength="10" pattern="[0-9]{10}" required>
                                 </div>
                                 <div class="col-md-6 form-group">
-                                    <label for="phone_number">Alternate Contact Number</label> <span style="color:red;">*</span>
+                                    <label for="phone_number">Alternate Contact Number</label> 
                                     <input type="tel" name="phone_number" id="phone_number" class="form-control"
-                                        placeholder="Alternate Contact Number" required maxlength="10" pattern="[0-9]{10}" required>
+                                        placeholder="Alternate Contact Number" required maxlength="10" pattern="[0-9]{10}" >
                                 </div>
                                 <div class="col-md-6 form-group">
                                     <label for="email">Email Address</label>
                                     <input type="email" name="email" id="email" class="form-control"
-                                        placeholder="Email Address" required>
+                                        placeholder="Email Address" >
                                 </div>
                                 <div class="col-md-6 form-group">
                                     <label for="parent_name">Parent/Guardian Name</label> <span style="color:red;">*</span>
@@ -80,7 +80,7 @@
                                 <div class="col-md-6 form-group">
                                     <label for="parent_phone_number">Parent/Guardian Phone Number</label>
                                     <input type="tel" name="parent_phone_number" id="parent_phone_number"
-                                        class="form-control" placeholder="Parent/Guardian Phone Number" required>
+                                        class="form-control" placeholder="Parent/Guardian Phone Number" >
                                 </div>
                             </div>
                         </fieldset>
