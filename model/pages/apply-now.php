@@ -29,17 +29,17 @@
                             <legend>Basic Information</legend>
                             <div class="row">
                                 <div class="col-md-6 form-group">
-                                    <label for="full_name">Full Name</label>
+                                    <label for="full_name">Full Name</label> <span style="color:red;">*</span>
                                     <input type="text" name="full_name" id="full_name" class="form-control"
                                         placeholder="Applicant's Full Name" required>
                                 </div>
                                 <div class="col-md-6 form-group">
-                                    <label for="date_of_birth">Date of Birth</label>
+                                    <label for="date_of_birth">Date of Birth</label> <span style="color:red;">*</span>
                                     <input type="date" name="date_of_birth" id="date_of_birth" class="form-control"
                                         required>
                                 </div>
                                 <div class="col-md-6 form-group">
-                                    <label for="gender">Gender</label>
+                                    <label for="gender">Gender</label> <span style="color:red;">*</span>
                                     <select name="gender" id="gender" class="form-select" required>
                                         <option value="">Select Gender</option>
                                         <option value="male">Male</option>
@@ -48,17 +48,17 @@
                                     </select>
                                 </div>
                                 <div class="col-md-6 form-group">
-                                    <label for="nationality">Nationality</label>
+                                    <label for="nationality">Nationality</label> <span style="color:red;">*</span>
                                     <input type="text" name="nationality" id="nationality" class="form-control"
                                         placeholder="Nationality" required>
                                 </div>
                                 <div class="col-md-6 form-group">
-                                    <label for="address">Address</label>
+                                    <label for="address">Address</label> <span style="color:red;">*</span>
                                     <input type="text" name="address" id="address" class="form-control"
                                         placeholder="Address" required>
                                 </div>
                                 <div class="col-md-6 form-group">
-                                    <label for="phone_number">Phone Number</label>
+                                    <label for="phone_number">Phone Number</label> <span style="color:red;">*</span>
                                     <input type="tel" name="phone_number" id="phone_number" class="form-control"
                                         placeholder="Phone Number" required>
                                 </div>
@@ -68,7 +68,7 @@
                                         placeholder="Email Address" required>
                                 </div>
                                 <div class="col-md-6 form-group">
-                                    <label for="parent_name">Parent/Guardian Name</label>
+                                    <label for="parent_name">Parent/Guardian Name</label> <span style="color:red;">*</span>
                                     <input type="text" name="parent_name" id="parent_name" class="form-control"
                                         placeholder="Parent/Guardian Name" required>
                                 </div>
@@ -85,18 +85,18 @@
                             <legend>Previous School Information </legend>
                             <div class="row">
                                 <div class="col-md-6 form-group">
-                                    <label for="full_name">Name of previous school</label>
+                                    <label for="full_name">Name of previous school</label> <span style="color:red;">*</span>
                                     <input type="text" name="full_name" id="full_name" class="form-control"
                                         placeholder="Name of previous school" required>
                                 </div>
                                 <div class="col-md-6 form-group">
-                                    <label for="full_name">School address</label>
+                                    <label for="full_name">School address</label> <span style="color:red;">*</span>
                                     <input type="text" name="full_name" id="full_name" class="form-control"
                                         placeholder="School address" required>
                                 </div>
 
                                 <div class="col-md-6 form-group">
-                                    <label for="gender">Grades attended</label>
+                                    <label for="gender">Grades attended</label> <span style="color:red;">*</span>
                                     <select name="gender" id="gender" class="form-select" required>
                                         <option value="">Select Grade</option>
                                         <option value="male">Nursery </option>
@@ -118,7 +118,7 @@
                             </div>
                         </fieldset>
                         <fieldset>
-                            <legend>Program and Grade Applying For </legend>
+                            <legend>Program and Grade Applying For </legend> <span style="color:red;">*</span>
                             <div class="row">
                                 <div class="col-md-6 form-group">
                                     <label for="gender">Grade applying for</label>
@@ -143,7 +143,7 @@
                         </fieldset>
 
                         <div class="form-group mt-3">
-                            <label for="file_upload">Upload a  Photo:</label> <br>
+                            <label for="file_upload">Upload a  Photo:</label>  <span style="color:red;">*</span> <br>
                             <div class="custom-file-upload">
                                 <input type="file" id="file_upload" name="file_upload" accept="image/*"
                                     onchange="previewFile()">
