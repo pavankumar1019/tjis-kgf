@@ -39,6 +39,9 @@ if ($method == 'POST') {
     $email = mysqli_real_escape_string($conn, $_POST['email']);
     $p_g_name = mysqli_real_escape_string($conn, $_POST['p_g_name']);
     $city_town = mysqli_real_escape_string($conn, $_POST['city_town']);
+    $religion = mysqli_real_escape_string($conn, $_POST['religion']);
+    $father_name = mysqli_real_escape_string($conn, $_POST['father_name']);
+    $mother_name = mysqli_real_escape_string($conn, $_POST['mother_name']);
  
     $pre_sch_name = mysqli_real_escape_string($conn, $_POST['pre_sch_name']);
     $pre_sch_address = mysqli_real_escape_string($conn, $_POST['pre_sch_address']);
@@ -53,8 +56,8 @@ if ($method == 'POST') {
         $photo = 'data:image/png;base64,' . base64_encode(file_get_contents($_FILES["image"]["tmp_name"]));
     }
         // Create the SQL query to insert the course data
-        $sql = "INSERT INTO newapplications (full_name, dob, gender,city_town, nationality, address, contact, alt_contact, email, p_g_name, pre_sch_name, pre_sch_address, class_last_attended, grade_for_apply, photo) 
-        VALUES ('$full_name', '$dob', '$gender', '$nationality','$city_town', '$address', '$contact', '$alt_contact', '$email', '$p_g_name', '$pre_sch_name', '$pre_sch_address', '$class_last_attended', '$grade_for_apply', '$photo')";
+        $sql = "INSERT INTO newapplications (full_name, dob,religion, father_name, mother_name , gender,city_town, nationality, address, contact, alt_contact, email, p_g_name, pre_sch_name, pre_sch_address, class_last_attended, grade_for_apply, photo) 
+        VALUES ('$full_name', '$dob','$religion','$father_name','$mother_name', '$gender', '$city_town','$nationality', '$address', '$contact', '$alt_contact', '$email', '$p_g_name', '$pre_sch_name', '$pre_sch_address', '$class_last_attended', '$grade_for_apply', '$photo')";
         if ($conn->query($sql) === TRUE) {
 
             if (isset($email)) {
