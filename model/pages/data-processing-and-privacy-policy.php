@@ -5,16 +5,13 @@
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
-                <h2>About</h2>
-                <p>About The Jain International School
-                    "The Legacy"</p>
+                <h2> Data Processing and Privacy Policy</h2>
+             
             </div>
 
             <div class="row">
-                <div class="col-lg-4">
-                    <img src="https://tjiskgf.com/wp-content/uploads/2021/08/003.jpg" class="img-fluid" alt="">
-                </div>
-                <div class="col-lg-8 pt-4 pt-lg-0 content">
+      
+                <div class="col-lg-12 pt-4 pt-lg-0 content">
                     <h3>The Jain International School</h3>
 
                     <p>
