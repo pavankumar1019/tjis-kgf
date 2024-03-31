@@ -142,7 +142,7 @@
                         </fieldset>
 
                         <div class="form-group mt-3">
-                            <label for="file_upload">Upload a Photo:</label> <br>
+                            <label for="file_upload">Upload a  Photo:</label> <br>
                             <div class="custom-file-upload">
                                 <input type="file" id="file_upload" name="file_upload" accept="image/*"
                                     onchange="previewFile()">

@@ -10,7 +10,7 @@
       padding: 10px 35px;
       color: #fff;
       transition: 0.4s;
-      border-radius: 50px;" type="submit">Apply Now</button>
+      border-radius: 50px;" onclick="location.href='<?=base()?>apply-now'">Apply Now</button>
       <div class="social-links">
         <a href="tel:+919845498660" class="phone"><i class="bx bxs-phone"></i></a>
        
