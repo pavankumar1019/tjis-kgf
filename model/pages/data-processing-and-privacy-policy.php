@@ -53,7 +53,7 @@
     You have the right to: <br><br>
     - Access, correct, or update your personal information <br>
     - Withdraw consent for the processing of your data <br>
-    - Request deletion of your data, subject to applicabl
+    - Request deletion of your data, subject to applicable
 
                 </div>
             </div>
