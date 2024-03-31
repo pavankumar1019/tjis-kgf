@@ -2,33 +2,7 @@
 
 <main id="main">
 
-<!-- ======= About Section ======= -->
-<section id="about" class="about">
-  <div class="container" data-aos="fade-up">
 
-    <div class="section-title">
-      <h2>About</h2>
-      <p>About The Jain International School
-        "The Legacy"</p>
-    </div>
-
-    <div class="row">
-      <div class="col-lg-4">
-        <img src="https://tjiskgf.com/wp-content/uploads/2021/08/003.jpg" class="img-fluid" alt="">
-      </div>
-      <div class="col-lg-8 pt-4 pt-lg-0 content">
-        <h3>The Jain International School</h3>
-   
-      
-        <p>
-          Founded by JGI, The Jain International School is one of the Best Schools in K.G.F aims for a holistic approach to educate and guide students with Karnataka State Board curriculum and that ensures comprehensive learning experience. Our school is a co-educational, day-boarding school. We set the highest standards for academic achievement, intellectual growth, ethical awareness and behavior, and sportsmanship for our students.
-
-        </p>
-      </div>
-    </div>
-
-  </div>
-</section><!-- End About Section -->
 
 
 
@@ -38,9 +12,10 @@
     <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
 
-        <div class="section-title">
-          <h2>Contact</h2>
-        </div>
+      <div class="section-title">
+      <h2>ADMISSIONS OPEN</h2>
+      <p>Apply Here !</p>
+    </div>
 
         <div class="row mt-1">
 
