@@ -65,7 +65,7 @@
 ?>
                                                             <tr>
 
-                                                                <td style="min-width: 500px !important;" class="p-4">
+                                                                <td  class="p-4">
                                                                     <div class="d-flex">
                                                                         <div>
                                                                             <h4><?=$row['id']?></h4>      
