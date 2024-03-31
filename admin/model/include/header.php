@@ -9,7 +9,7 @@ include('./database/gsc_db.php');
 $adminuser = 'SELECT * FROM admin_users WHERE email="'.$_SESSION['email_admin'].'" AND id="'.$_SESSION['id'].'"';
 $adminuserresult = $conn->query($adminuser);
 
-$products = 'SELECT * FROM items ';
+$products = 'SELECT * FROM newapplications ';
 $resultproduct = $conn->query($products);
 
 $resultcatproducts = 'SELECT * FROM category ';
@@ -151,7 +151,7 @@ $email=$adminrow['email'];
                         <div class="collapse" id="ui-basic">
                             <ul class="nav flex-column sub-menu">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="<?=base()?>courses/">New Admission</a>
+                                    <a class="nav-link" href="<?=base()?>courses/">New Admissions</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="<?=base()?>category/">Report</a>
