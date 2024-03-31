@@ -48,6 +48,10 @@
                                     </select>
                                 </div>
                                 <div class="col-md-6 form-group">
+                                    <label for="nationality">Religion</label> <span style="color:red;">*</span>
+                                    <select id="religion" name="religion" class="form-select" required><option value="-1">-Select Religion-</option><option value="1">Hindu</option><option value="2">Christian</option><option value="3">Muslim</option><option value="4">Sikh</option><option value="5">Others</option><option value="6">Non Muslim</option><option value="7">Jain</option><option value="8">Bouddha</option><option value="9">Donyi Polo</option><option value="10">Niamjre</option><option value="11">Indigenous</option><option value="22">HINDU MARATHA</option><option value="23">MARWADI</option><option value="24">MUMBAI GUJARATI</option><option value="25">RAJASTHANI</option><option value="26">Parsi</option><option value="27"> </option><option value="28">Islam</option><option value="29">Prefer Not to Say</option><option value="1012">Chinese</option></select>
+                                </div>
+                                <div class="col-md-6 form-group">
                                     <label for="nationality">Nationality</label> <span style="color:red;">*</span>
                                     <input type="text" name="nationality" id="nationality" class="form-control"
                                         placeholder="Nationality" required>
@@ -68,25 +72,66 @@
                                     <input type="email" name="email" id="email" class="form-control"
                                         placeholder="Email Address" >
                                 </div>
+
+                              
+                               
+                              
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Parent Details</legend>
+                            <div class="row">
                                 <div class="col-md-6 form-group">
-                                    <label for="parent_name">Parent/Guardian Name</label> <span style="color:red;">*</span>
-                                    <input type="text" name="p_g_name" id="parent_name" class="form-control"
-                                        placeholder="Parent/Guardian Name" required>
+                                    <label for="full_name">Father Name</label> <span style="color:red;">*</span>
+                                    <input type="text" name="full_name" id="full_name" class="form-control"
+                                        placeholder="Applicant's Full Name" required>
                                 </div>
                                 <div class="col-md-6 form-group">
-                                    <label for="phone_number">Parent/Guardian  Contact Number</label> <span style="color:red;">*</span>
+                                    <label for="date_of_birth">Mother Name</label> <span style="color:red;">*</span>
+                                    <input type="date" name="dob" id="date_of_birth" class="form-control"
+                                        required>
+                                </div>
+                               
+                                <div class="col-md-6 form-group">
+                                    <label for="address">City / Town</label> <span style="color:red;">*</span>
+                                    <input type="text" name="city_town" id="address" class="form-control"
+                                        placeholder="Address" required>
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <label for="address">Address</label> <span style="color:red;">*</span>
+                                    <input type="text" name="address" id="address" class="form-control"
+                                        placeholder="Address" required>
+                                </div>
+                              
+                                <div class="col-md-6 form-group">
+                                    <label for="email">Email Address</label>
+                                    <input type="email" name="email" id="email" class="form-control"
+                                        placeholder="Email Address" >
+                                </div>
+                                
+                                <div class="col-md-6 form-group">
+                                    <label for="parent_name">Parent/Guardian Name</label> 
+                                    <input type="text" name="p_g_name" id="parent_name" class="form-control"
+                                        placeholder="Parent/Guardian Name" >
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <label for="phone_number">Father Contact Number</label> <span style="color:red;">*</span>
                                     <input type="tel" name="contact" id="phone_number" class="form-control"
                                         placeholder="Contact Number" required maxlength="10" pattern="[0-9]{10}" required>
                                 </div>
                                 <div class="col-md-6 form-group">
-                                    <label for="phone_number">Parent/Guardian  Alternate Contact Number</label> 
+                                    <label for="phone_number">Mother Contact Number</label> <span style="color:red;">*</span>
                                     <input type="tel" name="alt_contact" id="phone_number" class="form-control"
-                                        placeholder="Alternate Contact Number" required maxlength="10" pattern="[0-9]{10}" >
+                                        placeholder="Alternate Contact Number"  maxlength="10" pattern="[0-9]{10}" >
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <label for="phone_number">Guardian Contact Number</label>
+                                    <input type="tel" name="alt_contact" id="phone_number" class="form-control"
+                                        placeholder="Alternate Contact Number" maxlength="10" pattern="[0-9]{10}" >
                                 </div>
                               
                             </div>
                         </fieldset>
-
 
                         <fieldset>
                             <legend>Previous School Information </legend>
