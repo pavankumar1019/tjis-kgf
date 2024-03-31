@@ -59,15 +59,14 @@ if ($method == 'POST') {
             if (isset($email)) {
                 try {
                     $mail->SMTPDebug = 0;
-              $mail->isSMTP();
-                    $mail->Host = 'smtp.hostinger.com'; // Specify main and backup SMTP servers
-                    $mail->SMTPAuth = true; // Enable SMTP authentication
-                    $mail->Username = 'info@thejaininternationalschool.in'; // SMTP username
-                    $mail->Password = 'Pavan@5639'; // SMTP password
-                    $mail->SMTPSecure = 'SSL'; // Enable TLS encryption, `ssl` also accepted
-                    $mail->Port = 465; // TCP port to connect to
-                    $mail->SMTPDebug = 0; // Set to 2 for detailed debug output
-                    // Set email parameters
+                    $mail->isSMTP();
+                    $mail->Host       = 'smtp.hostinger.com';
+                    $mail->SMTPAuth   = true;
+                    $mail->Username   = 'info@thejaininternationalschool.in';
+                    $mail->Password   = 'Pavan@5639';
+                    $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+                    $mail->Port       = 587;
+
 
                     $mail->setFrom('info@thejaininternationalschool.in', 'TJIS-KGF'); // Sender's email address and name
                     $mail->addAddress($email ,  $full_name); // Recipient's email address and name
