@@ -60,12 +60,12 @@
                                 <div class="col-md-6 form-group">
                                     <label for="phone_number">Contact Number</label> <span style="color:red;">*</span>
                                     <input type="tel" name="phone_number" id="phone_number" class="form-control"
-                                        placeholder="Contact Number" required maxlength="10" required>
+                                        placeholder="Contact Number" required maxlength="10" pattern="[0-9]{10}" required>
                                 </div>
                                 <div class="col-md-6 form-group">
                                     <label for="phone_number">Alternate Contact Number</label> <span style="color:red;">*</span>
                                     <input type="tel" name="phone_number" id="phone_number" class="form-control"
-                                        placeholder="Alternate Contact Number" required maxlength="10" required>
+                                        placeholder="Alternate Contact Number" required maxlength="10" pattern="[0-9]{10}" required>
                                 </div>
                                 <div class="col-md-6 form-group">
                                     <label for="email">Email Address</label>
