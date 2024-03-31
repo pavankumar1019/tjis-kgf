@@ -29,7 +29,7 @@ $email=$adminrow['email'];
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>Scientoworld-ADMIN</title>
+    <title>PKWEBDEV-ADMIN</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap4.min.css" />
 
@@ -73,7 +73,7 @@ $email=$adminrow['email'];
 
                 <div>
                     <a class="navbar-brand brand-logo" href="<?=base()?>">
-                        <img src="<?=base()?>images/favicon/base_icon_contrast_background1.png" alt="logo" />
+                        <img src="https://thejaininternationalschool.in/images/JGI_logo___Low.png" alt="logo" />
                     </a>
                     <a class="navbar-brand brand-logo-mini" href="<?=base()?>">
                         <img src="<?=base()?>images/favicon/favicon.png" alt="logo" />
