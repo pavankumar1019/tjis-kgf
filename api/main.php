@@ -33,8 +33,6 @@ if ($method == 'POST') {
     $grade_for_apply = mysqli_real_escape_string($conn, $_POST['grade_for_apply']);
 
 
-    // Check if files were uploaded
-    if (isset($_FILES["image"]["tmp_name"])) {
         // Read and encode uploaded image and certificate files
         $photo = 'data:image/png;base64,' . base64_encode(file_get_contents($_FILES["image"]["tmp_name"]));
         // Create the SQL query to insert the course data
@@ -46,7 +44,7 @@ if ($method == 'POST') {
             $data[] = array("statusCode" => 201);
             $data[] = array("message" => "Error in submiting try again");
         }
-    } 
+
 
     echo json_encode($data);
 }
