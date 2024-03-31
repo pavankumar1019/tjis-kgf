@@ -23,7 +23,7 @@
 
                 <div class="col-lg-12 mt-5 mt-lg-0">
 
-                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                    <form action="forms/contact.php" method="post" role="form" class="php-email-form" enctype="multipart/form-data">
                         <!-- Basic Information -->
                         <fieldset>
                             <legend>Basic Information</legend>
@@ -60,12 +60,12 @@
                                 <div class="col-md-6 form-group">
                                     <label for="phone_number">Contact Number</label> <span style="color:red;">*</span>
                                     <input type="tel" name="phone_number" id="phone_number" class="form-control"
-                                        placeholder="Phone Number" required>
+                                        placeholder="Contact Number" required maxlength="10" required>
                                 </div>
                                 <div class="col-md-6 form-group">
                                     <label for="phone_number">Alternate Contact Number</label> <span style="color:red;">*</span>
                                     <input type="tel" name="phone_number" id="phone_number" class="form-control"
-                                        placeholder="Phone Number" required>
+                                        placeholder="Alternate Contact Number" required maxlength="10" required>
                                 </div>
                                 <div class="col-md-6 form-group">
                                     <label for="email">Email Address</label>
