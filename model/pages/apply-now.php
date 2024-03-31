@@ -103,7 +103,7 @@
                                 <div class="col-md-6 form-group">
                                     <label for="gender">Class last attended</label> <span style="color:red;">*</span>
                                     <select name="gender" id="gender" class="form-select" required>
-                                        <option value="">Select Grade</option>
+                                        <option value="">Select Class last attended</option>
                                         <option value="male">Nursery </option>
                                         <option value="male">LKG </option>
                                         <option value="male">UKG </option>
