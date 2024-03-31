@@ -56,9 +56,8 @@ $URL = array_values(array_filter($URL));
 
   <link href="assets/css/style.css" rel="stylesheet">
 
-
-  <meta property="og:locale" content="en_US">
-<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="website">
 <meta property="og:title" content="The Jain International School - KGF">
 <meta property="og:description" content="Enroll Today and Experience the The Jain International School Difference!
 
@@ -68,8 +67,8 @@ Don't miss out on the opportunity to give your child the best possible education
 <meta property="article:published_time" content="2024-03-16T00:00:00+00:00">
 <meta property="article:modified_time" content="2024-03-16T00:00:00+00:00">
 <meta property="og:image" content="https://thejaininternationalschool.in/images/logo-meta1.png">
-<meta property="og:image:width" content="1024">
-<meta property="og:image:height" content="536">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta property="og:image:type" content="image/jpeg">
 <meta name="author" content="TJIS">
 <meta name="twitter:card" content="summary_large_image">
