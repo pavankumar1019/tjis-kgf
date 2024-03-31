@@ -41,7 +41,7 @@
 
                                                 </div>
                                                 <div class="table-responsive mt-1">
-                                                    <table class="select-table" id="employee_data">
+                                                    <table class="table table-striped select-table" id="employee_data">
                                                         <thead>
                                                             <tr>
                                                                 <th class="p-4">ID</th>
