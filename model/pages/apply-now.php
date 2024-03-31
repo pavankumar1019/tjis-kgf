@@ -23,7 +23,7 @@
 
                 <div class="col-lg-12 mt-5 mt-lg-0">
 
-                    <form  method="post" id="applynow" class="php-email-form" enctype="multipart/form-data">
+                    <form id="applynow" class="php-email-form" enctype="multipart/form-data">
                         <!-- Basic Information -->
                         <fieldset>
                             <legend>Basic Information</legend>
