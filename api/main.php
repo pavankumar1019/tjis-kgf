@@ -10,6 +10,12 @@ header("Content-Type: application/json; charset=UTF-8");
 header("Access-Control-Allow-Methods: POST");
 header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
 
+
+// Include PHPMailer's autoloader
+require '../vendor/autoload.php';
+
+// Create a new PHPMailer instance
+$mail = new PHPMailer\PHPMailer\PHPMailer();
 // get request method
 $method = $_SERVER['REQUEST_METHOD'];
 if ($method == 'POST') {
@@ -43,7 +49,31 @@ if ($method == 'POST') {
         $sql = "INSERT INTO newapplications (full_name, dob, gender, nationality, address, contact, alt_contact, email, p_g_name, p_g_contact, pre_sch_name, pre_sch_address, class_last_attended, grade_for_apply, photo) 
         VALUES ('$full_name', '$dob', '$gender', '$nationality', '$address', '$contact', '$alt_contact', '$email', '$p_g_name', '$p_g_contact', '$pre_sch_name', '$pre_sch_address', '$class_last_attended', '$grade_for_apply', '$photo')";
         if ($conn->query($sql) === TRUE) {
+
+            if (isset($email)) {
+                try {
+                    // Set up SMTP for sending emails (optional)
+                    $mail->isSMTP(); // Set mailer to use SMTP
+                    $mail->Host = 'smtp.hostinger.com'; // Specify main and backup SMTP servers
+                    $mail->SMTPAuth = true; // Enable SMTP authentication
+                    $mail->Username = 'info@thejaininternationalschool.in'; // SMTP username
+                    $mail->Password = 'Pavan@5639'; // SMTP password
+                    $mail->SMTPSecure = 'SSL'; // Enable TLS encryption, `ssl` also accepted
+                    $mail->Port = 465; // TCP port to connect to
+            
+                    // Set email parameters
+                    $mail->setFrom('info@thejaininternationalschool.in', 'TJIS-KGF'); // Sender's email address and name
+                    $mail->addAddress( $email ,  $full_name); // Recipient's email address and name
+                    $mail->Subject = 'Test Email'; // Email subject
+                    $mail->Body = 'This is a test email sent using PHPMailer.'; // Email body
+                    $mail->send();
+                } catch (Exception $e) {
+                    
+                }
+            } 
+
           $data[] = array("statusCode" => 200, "message" => "Application Submited");
+
         } else {
             $data[] = array("statusCode" => 201);
             $data[] = array("message" => "Error in submiting try again");
