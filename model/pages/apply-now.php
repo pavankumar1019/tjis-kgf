@@ -23,7 +23,7 @@
 
                 <div class="col-lg-12 mt-5 mt-lg-0">
 
-                    <form  method="post" role="form" class="php-email-form" enctype="multipart/form-data">
+                    <form  method="post" id="apply_now" class="php-email-form" enctype="multipart/form-data">
                         <!-- Basic Information -->
                         <fieldset>
                             <legend>Basic Information</legend>
@@ -35,7 +35,7 @@
                                 </div>
                                 <div class="col-md-6 form-group">
                                     <label for="date_of_birth">Date of Birth</label> <span style="color:red;">*</span>
-                                    <input type="date" name="date_of_birth" id="date_of_birth" class="form-control"
+                                    <input type="date" name="dob" id="date_of_birth" class="form-control"
                                         required>
                                 </div>
                                 <div class="col-md-6 form-group">
@@ -59,12 +59,12 @@
                                 </div>
                                 <div class="col-md-6 form-group">
                                     <label for="phone_number">Contact Number</label> <span style="color:red;">*</span>
-                                    <input type="tel" name="phone_number" id="phone_number" class="form-control"
+                                    <input type="tel" name="contact" id="phone_number" class="form-control"
                                         placeholder="Contact Number" required maxlength="10" pattern="[0-9]{10}" required>
                                 </div>
                                 <div class="col-md-6 form-group">
                                     <label for="phone_number">Alternate Contact Number</label> 
-                                    <input type="tel" name="phone_number" id="phone_number" class="form-control"
+                                    <input type="tel" name="alt_contact" id="phone_number" class="form-control"
                                         placeholder="Alternate Contact Number" required maxlength="10" pattern="[0-9]{10}" >
                                 </div>
                                 <div class="col-md-6 form-group">
@@ -74,12 +74,12 @@
                                 </div>
                                 <div class="col-md-6 form-group">
                                     <label for="parent_name">Parent/Guardian Name</label> <span style="color:red;">*</span>
-                                    <input type="text" name="parent_name" id="parent_name" class="form-control"
+                                    <input type="text" name="p_g_name" id="parent_name" class="form-control"
                                         placeholder="Parent/Guardian Name" required>
                                 </div>
                                 <div class="col-md-6 form-group">
                                     <label for="parent_phone_number">Parent/Guardian Phone Number</label>
-                                    <input type="tel" name="parent_phone_number" id="parent_phone_number"
+                                    <input type="tel" name="p_g_contact" id="parent_phone_number"
                                         class="form-control" placeholder="Parent/Guardian Phone Number" >
                                 </div>
                             </div>
@@ -91,18 +91,18 @@
                             <div class="row">
                                 <div class="col-md-6 form-group">
                                     <label for="full_name">Name of previous school</label> <span style="color:red;">*</span>
-                                    <input type="text" name="full_name" id="full_name" class="form-control"
+                                    <input type="text" name="pre_sch_name" id="full_name" class="form-control"
                                         placeholder="Name of previous school" required>
                                 </div>
                                 <div class="col-md-6 form-group">
                                     <label for="full_name">School address</label> <span style="color:red;">*</span>
-                                    <input type="text" name="full_name" id="full_name" class="form-control"
+                                    <input type="text" name="pre_sch_address" id="full_name" class="form-control"
                                         placeholder="School address" required>
                                 </div>
 
                                 <div class="col-md-6 form-group">
                                     <label for="gender">Class last attended</label> <span style="color:red;">*</span>
-                                    <select name="gender" id="gender" class="form-select" required>
+                                    <select name="class_last_attended" id="gender" class="form-select" required>
                                         <option value="">Select Class last attended</option>
                                         <option value="male">Nursery </option>
                                         <option value="male">LKG </option>
@@ -127,7 +127,7 @@
                             <div class="row">
                                 <div class="col-md-6 form-group">
                                     <label for="gender">Grade applying for</label> <span style="color:red;">*</span>
-                                    <select name="gender" id="gender" class="form-select" required>
+                                    <select name="grade_for_apply" id="gender" class="form-select" required>
                                         <option value="">Select Grade</option>
                                         <option value="male">Nursery </option>
                                         <option value="male">LKG </option>

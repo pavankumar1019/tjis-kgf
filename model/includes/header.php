@@ -77,7 +77,7 @@ Don't miss out on the opportunity to give your child the best possible education
 <meta name="twitter:label2" content="Est. reading time">
 <meta name="twitter:data2" content="3 minutes">
 
-
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 </head>
 

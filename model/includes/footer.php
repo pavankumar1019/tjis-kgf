@@ -55,6 +55,48 @@
         }
     }
 </script>
+<script>
+  $(document).on("submit", "#apply_now", function (e) {
+  e.preventDefault();
+    if (
+      $("#categoriesidedit").val()!= "" &&
+      $("#extendedtitle").val()!= "" &&
+      $("#overviewtextvalue").val()!= "" &&
+      $("#description").val()!= "" 
+    ) {
+
+      $("#butsave").attr("disabled", "disabled");
+      $("#butsave").html(
+        '<span class="spinner-grow spinner-grow-sm" id="spinner" role="status" aria-hidden="true"></span>Loading...'
+      );
+      $.ajax({
+        data: new FormData(this),
+        type: "POST",
+        url: "./api/main.php",
+        contentType: false,
+        processData: false,
+        success: function (dataResult) {
+          console.log(dataResult);
+          if (dataResult[1].statusCode == 200) {
+            $("#apply_now")[0].reset();
+            $("#butsave").removeAttr("disabled");
+            $("#butsave").html("ADD");
+            alert("Added Succesfully !");
+            location.reload();
+          } else {
+            alert("Error occured !");
+          }
+        },
+      });
+
+    } else {
+
+      alert("Please fill all feilds");
+      
+    }
+ 
+});
+</script>
 </body>
 
 </html>
