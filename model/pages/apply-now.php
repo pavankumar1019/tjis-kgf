@@ -166,7 +166,7 @@
             <br>
             <br>
             <div class="section-title">
-            <p>Contact Information for Inquiries:</p>
+            <p><b>Contact Information for Inquiries:</b></p>
 
 <p>
     "For any questions or concerns, feel free to reach out to our admissions office."<br>
