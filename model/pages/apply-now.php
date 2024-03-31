@@ -88,8 +88,8 @@
                                 </div>
                                 <div class="col-md-6 form-group">
                                     <label for="date_of_birth">Mother Name</label> <span style="color:red;">*</span>
-                                    <input type="date" name="dob" id="date_of_birth" class="form-control"
-                                        required>
+                                    <input type="text" name="full_name" id="full_name" class="form-control"
+                                        placeholder="Applicant's Full Name" required>
                                 </div>
                                
                                 <div class="col-md-6 form-group">
