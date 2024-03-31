@@ -35,7 +35,7 @@
                                                             Admissions - 2023-25
                                                         </h4>
                                                         <p class="card-subtitle card-subtitle-dash">
-                                                            You have <?= $resultproduct->num_rows ?> Products
+                                                            You have <?= $resultproduct->num_rows ?> Admission 
                                                         </p>
                                                     </div>
 
