@@ -25,7 +25,7 @@ $URL = array_values(array_filter($URL));
 
 	<!-- Meta -->
 	<meta charset="utf-8">
-  	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="keywords" content="">
 	<meta name="author" content="pkwebdev">
@@ -42,7 +42,7 @@ Don't miss out on the opportunity to give your child the best possible education
 <meta property="og:site_name" content="The Jain International School - KGF">
 <meta property="article:published_time" content="2024-03-16T00:00:00+00:00">
 <meta property="article:modified_time" content="2024-03-16T00:00:00+00:00">
-<meta property="og:image" content="https://thejaininternationalschool.in/images/logo-meta 1024X536_2.png">
+<meta property="og:image" content="https://thejaininternationalschool.in/images/logo-meta1.png">
 <meta property="og:image:width" content="1024">
 <meta property="og:image:height" content="536">
 <meta property="og:image:type" content="image/jpeg">
