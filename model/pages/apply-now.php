@@ -104,7 +104,7 @@
                                     <label for="gender">Class last attended</label> <span style="color:red;">*</span>
                                     <select name="class_last_attended" id="gender" class="form-select" required>
                                         <option value="">Select Class last attended</option>
-                                        <option value="Nursery">Nursery </option>
+                                        <option value="none">None</option>
                                         <option value="LKG">LKG </option>
                                         <option value="UKG">UKG </option>
                                         <option value="Grade - 1">Grade - 1 </option>
