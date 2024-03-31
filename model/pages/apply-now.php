@@ -13,7 +13,7 @@
       <div class="container" data-aos="fade-up">
 
       <div class="section-title">
-      <h2>ADMISSIONS OPEN</h2>
+      <h2>ADMISSIONS OPEN (2024-25)</h2>
       <p>Apply Here !</p>
     </div>
 
