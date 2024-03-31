@@ -13,6 +13,7 @@
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
+                <img src="https://thejaininternationalschool.in/images/JGI_logo___Low.png" alt="">
                 <h2>ADMISSIONS OPEN (2024-25)</h2>
                 <p>Apply Here !</p>
             </div>
