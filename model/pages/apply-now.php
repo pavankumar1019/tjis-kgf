@@ -118,10 +118,10 @@
                             </div>
                         </fieldset>
                         <fieldset>
-                            <legend>Program and Grade Applying For </legend> <span style="color:red;">*</span>
+                            <legend>Program and Grade Applying For </legend>
                             <div class="row">
                                 <div class="col-md-6 form-group">
-                                    <label for="gender">Grade applying for</label>
+                                    <label for="gender">Grade applying for</label> <span style="color:red;">*</span>
                                     <select name="gender" id="gender" class="form-select" required>
                                         <option value="">Select Grade</option>
                                         <option value="male">Nursery </option>
