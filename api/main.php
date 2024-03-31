@@ -52,8 +52,8 @@ if ($method == 'POST') {
 
             if (isset($email)) {
                 try {
-                    // Set up SMTP for sending emails (optional)
-                    $mail->isSMTP(); // Set mailer to use SMTP
+                    $mail->SMTPDebug = 0;
+              $mail->isSMTP();
                     $mail->Host = 'smtp.hostinger.com'; // Specify main and backup SMTP servers
                     $mail->SMTPAuth = true; // Enable SMTP authentication
                     $mail->Username = 'info@thejaininternationalschool.in'; // SMTP username
@@ -62,8 +62,10 @@ if ($method == 'POST') {
                     $mail->Port = 465; // TCP port to connect to
                     $mail->SMTPDebug = 2; // Set to 2 for detailed debug output
                     // Set email parameters
+
                     $mail->setFrom('info@thejaininternationalschool.in', 'TJIS-KGF'); // Sender's email address and name
-                    $mail->addAddress( $email ,  $full_name); // Recipient's email address and name
+                    $mail->addAddress($email ,  $full_name); // Recipient's email address and name
+                    $mail->isHTML(true);
                     $mail->Subject = 'Test Email'; // Email subject
                     $mail->Body = 'This is a test email sent using PHPMailer.'; // Email body
                     $mail->send();
