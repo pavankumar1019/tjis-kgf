@@ -3,15 +3,7 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
-
-if (session_status() === PHP_SESSION_NONE) {
-  session_start();
-}
-
 include_once('../config/database.php');
-
 
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json; charset=UTF-8");
@@ -23,7 +15,7 @@ $method = $_SERVER['REQUEST_METHOD'];
 if ($method == 'POST') {
 
 
-  if ($_POST['type'] == "insert-course") {
+  if ($_POST['type'] == "submit_application") {
     // Sanitize and escape user inputs
     $full_name = mysqli_real_escape_string($conn, $_POST['full_name']);
     $dob = mysqli_real_escape_string($conn, $_POST['dob']);

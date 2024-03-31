@@ -169,6 +169,7 @@
 
                         <!-- Submission Button -->
                         <div class="text-center mt-4">
+                            <input type="hidden" name="type" value="submit_application">
                             <button type="submit" class="btn btn-primary">Submit Application</button>
                         </div>
                     </form>
