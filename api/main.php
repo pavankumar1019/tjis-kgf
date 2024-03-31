@@ -33,8 +33,12 @@ if ($method == 'POST') {
     $grade_for_apply = mysqli_real_escape_string($conn, $_POST['grade_for_apply']);
 
 
-        // Read and encode uploaded image and certificate files
+    $photo = ''; // Default value is an empty string
+
+    if (isset($_FILES["image"]) && $_FILES["image"]["error"] === UPLOAD_ERR_OK) {
+        // File was uploaded successfully
         $photo = 'data:image/png;base64,' . base64_encode(file_get_contents($_FILES["image"]["tmp_name"]));
+    }
         // Create the SQL query to insert the course data
         $sql = "INSERT INTO newapplications (full_name, dob, gender, nationality, address, contact, alt_contact, email, p_g_name, p_g_contact, pre_sch_name, pre_sch_address, class_last_attended, grade_for_apply, photo) 
         VALUES ('$full_name', '$dob', '$gender', '$nationality', '$address', '$contact', '$alt_contact', '$email', '$p_g_name', '$p_g_contact', '$pre_sch_name', '$pre_sch_address', '$class_last_attended', '$grade_for_apply', '$photo')";
