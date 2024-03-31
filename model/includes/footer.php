@@ -72,7 +72,7 @@ $(document).on("submit", "#applynow", function(e) {
         processData: false,
         success: function(dataResult) {
             console.log(dataResult);
-            if (dataResult[1].statusCode == 200) {
+            if (dataResult[0].statusCode == 200) {
                 swal({
                         title: "Thank You!",
                         text: "Your application has been submitted successfully. Our administrative office team will contact you soon.",
