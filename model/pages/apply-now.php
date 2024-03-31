@@ -98,20 +98,16 @@
                                         placeholder="Parent/Guardian Name" >
                                 </div>
                                 <div class="col-md-6 form-group">
-                                    <label for="phone_number">Father Contact Number</label> <span style="color:red;">*</span>
+                                    <label for="phone_number">Father / Mother / Guardian Contact Number</label> <span style="color:red;">*</span>
                                     <input type="tel" name="contact" id="phone_number" class="form-control"
                                         placeholder="Contact Number" required maxlength="10" pattern="[0-9]{10}" required>
                                 </div>
                                 <div class="col-md-6 form-group">
-                                    <label for="phone_number">Mother Contact Number</label> <span style="color:red;">*</span>
+                                    <label for="phone_number">Father / Mother / Guardian Alternate Contact Number</label> <span style="color:red;">*</span>
                                     <input type="tel" name="contact" id="phone_number" class="form-control"
                                         placeholder="Contact Number" required maxlength="10" pattern="[0-9]{10}" required>
                                 </div>
-                                <div class="col-md-6 form-group">
-                                    <label for="phone_number">Guardian Contact Number</label>
-                                    <input type="tel" name="alt_contact" id="phone_number" class="form-control"
-                                        placeholder="Alternate Contact Number" maxlength="10" pattern="[0-9]{10}" >
-                                </div>
+                              
                               
                             </div>
                         </fieldset>
