@@ -34,7 +34,7 @@
 
         <div class="row">
           <div class="col-lg-4">
-            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+            <img src="https://tjiskgf.com/wp-content/uploads/2021/08/003.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content">
             <h3>The Jain International School</h3>
@@ -110,7 +110,7 @@
     <section id="Skills" class="skills section-bg">
       <div class="container aos-init aos-animate" data-aos="fade-up">
 
-       <img src="https://tjiskgf.com/wp-content/uploads/2021/08/003.jpg" width="100%" alt="">
+       <img src="./images/logo-meta_3.png" width="100%" alt="">
 
       </div>
     </section>
