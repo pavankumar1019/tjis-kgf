@@ -18,7 +18,7 @@ if ($_SERVER['HTTP_HOST'] == 'localhost') {
 } else {
     $servername = "localhost";
     $username = "u736026977_tjis";
-    $password = "Pavan@5639";
+    $password = "Tjiskgf@5639";
     $dbname = "u736026977_tjis";
 }
 
