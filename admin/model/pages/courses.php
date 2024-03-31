@@ -75,7 +75,18 @@
                                                                 <td  class="p-4">
                                                                     <div class="d-flex">
                                                                         <div>
-                                                                        <img src="<?=$row['photo']?>" width="50px" alt="">    
+                                                                        <?php
+                                                                        if($row['photo']==""){
+                                                                        ?>
+                                                                         <img src="<?=$row['photo']?>" width="50px" alt=""> 
+                                                                        <?php
+                                                                        }else{
+                                                                           ?>
+                                                                           <h4>No Image</h4>
+                                                                           <?php 
+                                                                        }
+                                                                        ?>
+                                                                          
                                                                         </div>
                                                                     </div>
                                                                 </td>
