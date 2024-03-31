@@ -58,7 +58,12 @@
                                         placeholder="Address" required>
                                 </div>
                                 <div class="col-md-6 form-group">
-                                    <label for="phone_number">Phone Number</label> <span style="color:red;">*</span>
+                                    <label for="phone_number">Contact Number</label> <span style="color:red;">*</span>
+                                    <input type="tel" name="phone_number" id="phone_number" class="form-control"
+                                        placeholder="Phone Number" required>
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <label for="phone_number">Alternate Contact Number</label> <span style="color:red;">*</span>
                                     <input type="tel" name="phone_number" id="phone_number" class="form-control"
                                         placeholder="Phone Number" required>
                                 </div>
@@ -143,7 +148,7 @@
                         </fieldset>
 
                         <div class="form-group mt-3">
-                            <label for="file_upload">Upload a  Photo:</label>  <span style="color:red;">*</span> <br>
+                            <label for="file_upload">Upload a  Photo:</label>   <br>
                             <div class="custom-file-upload">
                                 <input type="file" id="file_upload" name="file_upload" accept="image/*"
                                     onchange="previewFile()">
