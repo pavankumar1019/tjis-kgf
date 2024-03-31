@@ -1,7 +1,14 @@
 <?php
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
+
+require '../vendor/autoload.php';
+
+$mail = new PHPMailer(true);
 
 include_once('../config/database.php');
 
@@ -14,8 +21,7 @@ header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers
 // Include PHPMailer's autoloader
 require '../vendor/autoload.php';
 
-// Create a new PHPMailer instance
-$mail = new PHPMailer\PHPMailer\PHPMailer();
+
 // get request method
 $method = $_SERVER['REQUEST_METHOD'];
 if ($method == 'POST') {
