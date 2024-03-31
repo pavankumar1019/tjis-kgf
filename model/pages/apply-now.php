@@ -143,11 +143,13 @@
                         <!-- Add other fieldsets with labels as needed -->
                         <!-- Submission Confirmation -->
                         <div class="form-check mt-3">
-                            <input class="form-check-input" type="checkbox" value="" id="consent_checkbox" required>
-                            <label class="form-check-label" for="consent_checkbox">
-                                I consent to the data processing and privacy policy.
-                            </label>
-                        </div>
+    <input class="form-check-input" type="checkbox" value="" id="consent_checkbox" required>
+    <label class="form-check-label" for="consent_checkbox">
+        I consent to the data processing and privacy policy. 
+        <span class="text-muted">(By checking this box, I acknowledge that the information provided is true and accurate to the best of my knowledge.)</span>
+    </label>
+</div>
+
                         <!-- Submission Button -->
                         <div class="text-center mt-4">
                             <button type="submit" class="btn btn-primary">Submit Application</button>
