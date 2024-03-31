@@ -143,12 +143,14 @@
                         <!-- Add other fieldsets with labels as needed -->
                         <!-- Submission Confirmation -->
                         <div class="form-check mt-3">
-    <input class="form-check-input" type="checkbox" value="" id="consent_checkbox" required>
-    <label class="form-check-label" for="consent_checkbox">
-        I consent to the <a href="<?=base()?>data-processing-and-privacy-policy">data processing and privacy policy</a>.
-        <span class="text-muted">(By checking this box, I acknowledge that the information provided is true and accurate to the best of my knowledge.)</span>
-    </label>
-</div>
+                            <input class="form-check-input" type="checkbox" value="" id="consent_checkbox" required>
+                            <label class="form-check-label" for="consent_checkbox">
+                                I consent to the <a href="<?=base()?>data-processing-and-privacy-policy">data processing
+                                    and privacy policy</a>.
+                                <span class="text-muted">(By checking this box, I acknowledge that the information
+                                    provided is true and accurate to the best of my knowledge.)</span>
+                            </label>
+                        </div>
 
                         <!-- Submission Button -->
                         <div class="text-center mt-4">
@@ -161,7 +163,15 @@
                 </div>
 
             </div>
+            <div class="section-title">
+            <p>Contact Information for Inquiries:</p>
 
+<p>
+    "For any questions or concerns, feel free to reach out to our admissions office."<br>
+    "Need assistance? Contact us at   <a href="tel:+919845498660" class="phone">+919845498660</a>."
+</p>
+
+            </div>
         </div>
     </section><!-- End Contact Section -->
 </main><!-- End #main -->
