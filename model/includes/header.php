@@ -67,8 +67,8 @@ Don't miss out on the opportunity to give your child the best possible education
 <meta property="article:published_time" content="2024-03-16T00:00:00+00:00">
 <meta property="article:modified_time" content="2024-03-16T00:00:00+00:00">
 <meta property="og:image" content="https://thejaininternationalschool.in/images/logo-meta_3.png">
-<meta property="og:image:width" content="1024">
-<meta property="og:image:height" content="536">
+<meta property="og:image:width" content="1511">
+<meta property="og:image:height" content="1862">
 <meta property="og:image:type" content="image/jpeg">
 <meta name="author" content="TJIS">
 <meta name="twitter:card" content="summary_large_image">
