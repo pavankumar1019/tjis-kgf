@@ -81,7 +81,7 @@ $(document).on("submit", "#applynow", function(e) {
                     })
                     .then((value) => {
                         if (value) {
-                            location.reload(); // Reload the page
+                          location.href = "<?=base()?>home";
                         }
                     });
             } else {
