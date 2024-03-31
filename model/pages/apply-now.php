@@ -80,7 +80,7 @@
                                 <div class="col-md-6 form-group">
                                     <label for="parent_phone_number">Parent/Guardian Phone Number</label>
                                     <input type="tel" name="p_g_contact" id="parent_phone_number"
-                                        class="form-control" placeholder="Parent/Guardian Phone Number" >
+                                        class="form-control" required maxlength="10" pattern="[0-9]{10}" placeholder="Parent/Guardian Phone Number" >
                                 </div>
                             </div>
                         </fieldset>
