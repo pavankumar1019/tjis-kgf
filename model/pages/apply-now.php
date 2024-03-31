@@ -86,12 +86,12 @@
                                 <div class="col-md-6 form-group">
                                     <label for="full_name">Name of previous school</label>
                                     <input type="text" name="full_name" id="full_name" class="form-control"
-                                        placeholder="Applicant's Full Name" required>
+                                        placeholder="Name of previous school" required>
                                 </div>
                                 <div class="col-md-6 form-group">
                                     <label for="full_name">School address</label>
                                     <input type="text" name="full_name" id="full_name" class="form-control"
-                                        placeholder="Applicant's Full Name" required>
+                                        placeholder="School address" required>
                                 </div>
 
                                 <div class="col-md-6 form-group">
