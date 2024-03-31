@@ -142,9 +142,11 @@
                         </fieldset>
 
                         <div class="form-group mt-3">
-        <label for="file_upload">Upload a Photo:</label>
-        <input type="file" id="file_upload" name="file_upload" accept="image/*" onchange="previewFile()">
+                        <label for="file_upload">Upload a File:</label>
+<div class="custom-file-upload">
+    <input type="file" id="file_upload" name="file_upload" accept="image/*" onchange="previewFile()">
     <img id="preview_image" src="#" alt="Image Preview">
+</div>
     </div>
                         <!-- Add other fieldsets with labels as needed -->
                         <!-- Submission Confirmation -->
