@@ -116,12 +116,20 @@
                                                                 <td class="text-center p-4">
                                                                     <a class="btn btn-inverse-danger btn-sm btn-fw  delete_course"
                                                                         id="<?=$row['id']?>">
-                                                                        Delete
+                                                                        Reject
                                                                     </a>
 
                                                                     <a class="btn btn-inverse-warning btn-sm btn-fw  "
                                                                         href="<?=base()?>addcourses/edit-course/<?=$row['id']?>">
                                                                         Edit
+                                                                    </a>
+                                                                    <a class="btn btn-inverse-warning btn-sm btn-fw  "
+                                                                        href="<?=base()?>addcourses/edit-course/<?=$row['id']?>">
+                                                                        View
+                                                                    </a>
+                                                                    <a class="btn btn-inverse-warning btn-sm btn-fw  "
+                                                                        href="<?=base()?>addcourses/edit-course/<?=$row['id']?>">
+                                                                        Aprove
                                                                     </a>
                                                                  
                                                                 </td>
