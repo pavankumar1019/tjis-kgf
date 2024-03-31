@@ -58,10 +58,8 @@ function previewFile() {
 }
   </script>
   <script>
-$(document).on("submit", "#apply_now", function(e) {
+$(document).on("submit", "#applynow", function(e) {
     e.preventDefault();
-
-
     $("#butsave").attr("disabled", "disabled");
     $("#butsave").html(
         '<span class="spinner-grow spinner-grow-sm" id="spinner" role="status" aria-hidden="true"></span>Loading...'

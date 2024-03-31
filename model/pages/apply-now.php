@@ -23,7 +23,7 @@
 
                 <div class="col-lg-12 mt-5 mt-lg-0">
 
-                    <form  method="post" id="apply_now" class="php-email-form" enctype="multipart/form-data">
+                    <form  method="post" id="applynow" class="php-email-form" enctype="multipart/form-data">
                         <!-- Basic Information -->
                         <fieldset>
                             <legend>Basic Information</legend>
@@ -170,7 +170,7 @@
                         <!-- Submission Button -->
                         <div class="text-center mt-4">
                             <input type="hidden" name="type" value="submit_application">
-                            <button type="submit" class="btn btn-primary">Submit Application</button>
+                            <button type="submit" id="butsave" class="btn btn-primary">Submit Application</button>
                         </div>
                     </form>
 
