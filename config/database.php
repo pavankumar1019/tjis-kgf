@@ -10,7 +10,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
-$connect = new PDO("mysql:host=localhost; dbname=u769900516_sciento", "u769900516_pavan", "Kumar@5639");
+$connect = new PDO("mysql:host=localhost; dbname=u736026977_tjis", "u736026977_tjis", "Tjiskgf@5639");
 
 
 // https://auth-db1112.hstgr.io/
