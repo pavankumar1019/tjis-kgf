@@ -78,6 +78,7 @@ Don't miss out on the opportunity to give your child the best possible education
 <meta name="twitter:data2" content="3 minutes">
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 </head>
 
