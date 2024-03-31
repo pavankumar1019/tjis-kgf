@@ -1,6 +1,6 @@
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center">
+  <section id="home" class="d-flex flex-column justify-content-center">
     <div class="container" data-aos="zoom-in" data-aos-delay="100">
       <img src="./images/JGI_logo___Low.png" width="100" alt=""> <br> <br>
       <h1>The Jain International School</h1>
@@ -53,7 +53,7 @@
 
 
     <!-- ======= Resume Section ======= -->
-    <section id="resume" class="resume">
+    <section id="" class="resume">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -107,7 +107,7 @@
       </div>
     </section><!-- End Resume Section -->
 
-    <section id="Skills" class="skills section-bg">
+    <section id="" class="skills section-bg">
       <div class="container aos-init aos-animate" data-aos="fade-up">
 
        <img src="./images/logo-meta_3.png" width="100%" alt="">
@@ -116,7 +116,7 @@
     </section>
 
 
-    <section id="Founder" class="resume">
+    <section id="chairmans-desk" class="resume">
       <div class="container aos-init aos-animate" data-aos="fade-up">
 
         <div class="section-title">
@@ -152,7 +152,7 @@ Along with creating educational opportunities, Dr. Roychand also initiated angel
 
 
 
-    <section id="Principal-Desk" class="portfolio section-bg">
+    <section id="principal-desk" class="portfolio section-bg">
       <div class="container aos-init aos-animate" data-aos="fade-up">
 
         <div class="section-title">
@@ -183,7 +183,7 @@ Along with creating educational opportunities, Dr. Roychand also initiated angel
       </div>
     </section>
     <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
+    <section id="Academics" class="services">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">

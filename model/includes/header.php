@@ -89,12 +89,12 @@ Don't miss out on the opportunity to give your child the best possible education
 
     <nav id="navbar" class="navbar nav-menu">
       <ul>
-        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span> Chairman's Desk</span></a></li>
-        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Principal Desk</span></a></li>
-        <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Programs Offered</span></a></li>
-        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        <li><a href="<?=base()?>home" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+        <li><a href="<?=base()?>#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+        <li><a href="<?=base()?>#chairmans-desk" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span> Chairman's Desk</span></a></li>
+        <li><a href="<?=base()?>#principal-desk" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Principal Desk</span></a></li>
+        <li><a href="<?=base()?>#Academics" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Academics</span></a></li>
+        <li><a href="<?=base()?>#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
       </ul>
     </nav><!-- .nav-menu -->
 
