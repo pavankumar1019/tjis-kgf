@@ -57,16 +57,7 @@
                                     <input type="text" name="address" id="address" class="form-control"
                                         placeholder="Address" required>
                                 </div>
-                                <div class="col-md-6 form-group">
-                                    <label for="phone_number">Contact Number</label> <span style="color:red;">*</span>
-                                    <input type="tel" name="contact" id="phone_number" class="form-control"
-                                        placeholder="Contact Number" required maxlength="10" pattern="[0-9]{10}" required>
-                                </div>
-                                <div class="col-md-6 form-group">
-                                    <label for="phone_number">Alternate Contact Number</label> 
-                                    <input type="tel" name="alt_contact" id="phone_number" class="form-control"
-                                        placeholder="Alternate Contact Number" required maxlength="10" pattern="[0-9]{10}" >
-                                </div>
+                              
                                 <div class="col-md-6 form-group">
                                     <label for="email">Email Address</label>
                                     <input type="email" name="email" id="email" class="form-control"
@@ -76,6 +67,16 @@
                                     <label for="parent_name">Parent/Guardian Name</label> <span style="color:red;">*</span>
                                     <input type="text" name="p_g_name" id="parent_name" class="form-control"
                                         placeholder="Parent/Guardian Name" required>
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <label for="phone_number">>Parent/Guardian  Contact Number</label> <span style="color:red;">*</span>
+                                    <input type="tel" name="contact" id="phone_number" class="form-control"
+                                        placeholder="Contact Number" required maxlength="10" pattern="[0-9]{10}" required>
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <label for="phone_number">>Parent/Guardian  Alternate Contact Number</label> 
+                                    <input type="tel" name="alt_contact" id="phone_number" class="form-control"
+                                        placeholder="Alternate Contact Number" required maxlength="10" pattern="[0-9]{10}" >
                                 </div>
                                 <div class="col-md-6 form-group">
                                     <label for="parent_phone_number">Parent/Guardian Phone Number</label>
