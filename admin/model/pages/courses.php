@@ -80,7 +80,7 @@
                                                                     </div>
                                                                 </td>
 
-                                                                <td>
+                                                                <td style="min-width: 500px !important;">
                                                                    
                                                                     <h4>Name: <b><?=$row['full_name']?></b></h4>
                                                                     <h4>DOB: <b><?=$row['dob']?></b></h4>
@@ -88,7 +88,7 @@
                                                                     <h4><b><?=$row['nationality']?></b>, <b><?=$row['religion']?></b>, <b><?=$row['city_town']?></b></h4>
                                                                     <h4>Adress: <b><?=$row['address']?></b></h4>
                                                                 </td>
-                                                                <td>
+                                                                <td style="min-width: 500px !important;">
                                                                    
                                                                     <h4>father_name: <b><?=$row['father_name']?></b></h4>
                                                                     <h4>mother_name: <b><?=$row['mother_name']?></b></h4>
@@ -97,7 +97,7 @@
                                                                     <h4>Alternate Contact: <b><?=$row['alt_contact']?></b></h4>
                                                                   
                                                                 </td>
-                                                                <td>
+                                                                <td style="min-width: 300px !important;">
                                                                    
                                                                     <h4><b><?=$row['pre_sch_name']?></b></h4>
                                                                     <h4><b><?=$row['pre_sch_address']?></b></h4>
