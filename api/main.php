@@ -60,7 +60,7 @@ if ($method == 'POST') {
                     $mail->Password = 'Pavan@5639'; // SMTP password
                     $mail->SMTPSecure = 'SSL'; // Enable TLS encryption, `ssl` also accepted
                     $mail->Port = 465; // TCP port to connect to
-            
+                    $mail->SMTPDebug = 2; // Set to 2 for detailed debug output
                     // Set email parameters
                     $mail->setFrom('info@thejaininternationalschool.in', 'TJIS-KGF'); // Sender's email address and name
                     $mail->addAddress( $email ,  $full_name); // Recipient's email address and name
