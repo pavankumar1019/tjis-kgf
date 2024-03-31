@@ -315,6 +315,6 @@ Along with creating educational opportunities, Dr. Roychand also initiated angel
 
 
     <section>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15550.440227021785!2d78.260772!3d12.9967744!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3badeb62c38b909d%3A0x9013e063bcbf3547!2sTHE%20JAIN%20INTERNATIONAL%20SCHOOL%20-%20KGF!5e0!3m2!1sen!2sin!4v1711882260579!5m2!1sen!2sin" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15550.440227021785!2d78.260772!3d12.9967744!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3badeb62c38b909d%3A0x9013e063bcbf3547!2sTHE%20JAIN%20INTERNATIONAL%20SCHOOL%20-%20KGF!5e0!3m2!1sen!2sin!4v1711882260579!5m2!1sen!2sin" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
   </main><!-- End #main -->
