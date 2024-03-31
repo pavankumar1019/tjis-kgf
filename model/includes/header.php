@@ -59,19 +59,21 @@ $URL = array_values(array_filter($URL));
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
 <meta property="og:title" content="The Jain International School - KGF">
-<meta property="og:description" content=".">
+<meta property="og:description" content="Enroll Today and Experience the The Jain International School Difference!
+
+Don't miss out on the opportunity to give your child the best possible education. Enroll them at The Jain International School today and embark on a journey of academic excellence, personal growth, and limitless possibilities. Together, let's shape a brighter future for the leaders of tomorrow!.">
 <meta property="og:url" content="https://thejaininternationalschool.in/">
-<meta property="og:site_name" content="Sciento World">
+<meta property="og:site_name" content="The Jain International School - KGF">
 <meta property="article:published_time" content="2024-03-16T00:00:00+00:00">
 <meta property="article:modified_time" content="2024-03-16T00:00:00+00:00">
 <meta property="og:image" content="https://thejaininternationalschool.in/images/logo-meta_3.png">
 <meta property="og:image:width" content="1024">
 <meta property="og:image:height" content="536">
 <meta property="og:image:type" content="image/jpeg">
-<meta name="author" content="Sciento World">
+<meta name="author" content="TJIS">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:label1" content="pkwebdev.com">
-<meta name="twitter:data1" content="Sciento World">
+<meta name="twitter:data1" content="TJIS-KGF">
 <meta name="twitter:label2" content="Est. reading time">
 <meta name="twitter:data2" content="3 minutes">
 
