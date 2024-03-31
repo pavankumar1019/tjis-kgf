@@ -143,9 +143,8 @@
 
                         <div class="form-group mt-3">
         <label for="file_upload">Upload a Photo:</label>
-        <input type="file" class="form-control-file" id="file_upload" name="file_upload" accept="image/*" onchange="previewFile()">
-        <!-- Preview Image -->
-        <img id="preview_image" src="#" alt="Image Preview" style="display: none; max-width: 200px; margin-top: 10px;">
+        <input type="file" id="file_upload" name="file_upload" accept="image/*" onchange="previewFile()">
+    <img id="preview_image" src="#" alt="Image Preview">
     </div>
                         <!-- Add other fieldsets with labels as needed -->
                         <!-- Submission Confirmation -->

@@ -1207,3 +1207,34 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+.custom-file-upload {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  width: 150px; /* Adjust width as needed */
+  height: 150px; /* Make it square by setting the same height as width */
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.custom-file-upload input[type="file"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.custom-file-upload img {
+  display: none;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image fills the square container */
+}
+
+.custom-file-upload:hover img {
+  display: block;
+}
