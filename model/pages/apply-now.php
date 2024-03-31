@@ -93,23 +93,6 @@
                                 </div>
                                
                                 <div class="col-md-6 form-group">
-                                    <label for="address">City / Town</label> <span style="color:red;">*</span>
-                                    <input type="text" name="city_town" id="address" class="form-control"
-                                        placeholder="Address" required>
-                                </div>
-                                <div class="col-md-6 form-group">
-                                    <label for="address">Address</label> <span style="color:red;">*</span>
-                                    <input type="text" name="address" id="address" class="form-control"
-                                        placeholder="Address" required>
-                                </div>
-                              
-                                <div class="col-md-6 form-group">
-                                    <label for="email">Email Address</label>
-                                    <input type="email" name="email" id="email" class="form-control"
-                                        placeholder="Email Address" >
-                                </div>
-                                
-                                <div class="col-md-6 form-group">
                                     <label for="parent_name">Parent/Guardian Name</label> 
                                     <input type="text" name="p_g_name" id="parent_name" class="form-control"
                                         placeholder="Parent/Guardian Name" >
