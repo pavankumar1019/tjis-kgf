@@ -76,7 +76,6 @@ $(document).on("submit", "#applynow", function(e) {
                 swal({
                         title: "Thank You!",
                         text: "Your application has been submitted successfully. Our administrative office team will contact you soon.",
-                        ,
                         icon: "success",
                         button: "OK",
                     })
