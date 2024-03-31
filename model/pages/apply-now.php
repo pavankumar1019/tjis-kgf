@@ -145,7 +145,7 @@
                         <div class="form-check mt-3">
     <input class="form-check-input" type="checkbox" value="" id="consent_checkbox" required>
     <label class="form-check-label" for="consent_checkbox">
-        I consent to the <a href="<?=base()?>data-processing-and-privacy-policy/">data processing and privacy policy</a>.
+        I consent to the <a href="<?=base()?>data-processing-and-privacy-policy">data processing and privacy policy</a>.
         <span class="text-muted">(By checking this box, I acknowledge that the information provided is true and accurate to the best of my knowledge.)</span>
     </label>
 </div>
