@@ -104,19 +104,19 @@
                                     <label for="gender">Class last attended</label> <span style="color:red;">*</span>
                                     <select name="class_last_attended" id="gender" class="form-select" required>
                                         <option value="">Select Class last attended</option>
-                                        <option value="male">Nursery </option>
-                                        <option value="male">LKG </option>
-                                        <option value="male">UKG </option>
-                                        <option value="male">Grade - 1 </option>
-                                        <option value="female">Grade - 2</option>
-                                        <option value="other">Grade - 3</option>
-                                        <option value="other">Grade - 4</option>
-                                        <option value="other">Grade - 5</option>
-                                        <option value="other">Grade - 6</option>
-                                        <option value="other">Grade - 7</option>
-                                        <option value="other">Grade - 8</option>
-                                        <option value="other">Grade - 9</option>
-                                        <option value="other">Grade - 10</option>
+                                        <option value="Nursery">Nursery </option>
+                                        <option value="LKG">LKG </option>
+                                        <option value="UKG">UKG </option>
+                                        <option value="Grade - 1">Grade - 1 </option>
+                                        <option value="Grade - 2">Grade - 2</option>
+                                        <option value="Grade - 3">Grade - 3</option>
+                                        <option value="Grade - 4">Grade - 4</option>
+                                        <option value="Grade - 5">Grade - 5</option>
+                                        <option value="Grade - 6">Grade - 6</option>
+                                        <option value="Grade - 7">Grade - 7</option>
+                                        <option value="Grade - 8">Grade - 8</option>
+                                        <option value="Grade - 9">Grade - 9</option>
+                                        <option value="Grade - 10">Grade - 10</option>
                                     </select>
                                 </div>
 
@@ -129,19 +129,19 @@
                                     <label for="gender">Grade applying for</label> <span style="color:red;">*</span>
                                     <select name="grade_for_apply" id="gender" class="form-select" required>
                                         <option value="">Select Grade</option>
-                                        <option value="male">Nursery </option>
-                                        <option value="male">LKG </option>
-                                        <option value="male">UKG </option>
-                                        <option value="male">Grade - 1 </option>
-                                        <option value="female">Grade - 2</option>
-                                        <option value="other">Grade - 3</option>
-                                        <option value="other">Grade - 4</option>
-                                        <option value="other">Grade - 5</option>
-                                        <option value="other">Grade - 6</option>
-                                        <option value="other">Grade - 7</option>
-                                        <option value="other">Grade - 8</option>
-                                        <option value="other">Grade - 9</option>
-                                        <option value="other">Grade - 10</option>
+                                        <option value="Nursery">Nursery </option>
+                                        <option value="LKG">LKG </option>
+                                        <option value="UKG">UKG </option>
+                                        <option value="Grade - 1">Grade - 1 </option>
+                                        <option value="Grade - 2">Grade - 2</option>
+                                        <option value="Grade - 3">Grade - 3</option>
+                                        <option value="Grade - 4">Grade - 4</option>
+                                        <option value="Grade - 5">Grade - 5</option>
+                                        <option value="Grade - 6">Grade - 6</option>
+                                        <option value="Grade - 7">Grade - 7</option>
+                                        <option value="Grade - 8">Grade - 8</option>
+                                        <option value="Grade - 9">Grade - 9</option>
+                                        <option value="Grade - 10">Grade - 10</option>
                                     </select>
                                 </div>
                             </div>
