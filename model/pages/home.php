@@ -110,7 +110,7 @@
     <section id="Skills" class="skills section-bg">
       <div class="container aos-init aos-animate" data-aos="fade-up">
 
-       <img src="./sahyadri-college-kolar.jpeg" width="100%" alt="">
+       <img src="https://tjiskgf.com/wp-content/uploads/2021/08/003.jpg" width="100%" alt="">
 
       </div>
     </section>
