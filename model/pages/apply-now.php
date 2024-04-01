@@ -80,7 +80,7 @@
                                 <div class="col-md-6 form-group">
                                     <label for="address">City / Town</label> <span style="color:red;">*</span>
                                     <input type="text" name="city_town" id="address" class="form-control"
-                                        placeholder="Address" required>
+                                        placeholder="City / Town" required>
                                 </div>
                                 <div class="col-md-6 form-group">
                                     <label for="address">Address</label> <span style="color:red;">*</span>
