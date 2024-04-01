@@ -17,7 +17,7 @@
                     <p>
     Data Processing and Privacy Policy <br><br>
 
-    At [Your School Name], we are committed to protecting the privacy and security of the personal information provided to us. This Data Processing and Privacy Policy outlines how we collect, use, and protect your data. <br><br>
+    At The Jain International School, we are committed to protecting the privacy and security of the personal information provided to us. This Data Processing and Privacy Policy outlines how we collect, use, and protect your data. <br><br>
 
     <strong>1. Information We Collect:</strong> <br><br>
     We may collect various types of personal information from you during the application process, including but not limited to: <br><br>

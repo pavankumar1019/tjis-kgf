@@ -105,18 +105,18 @@
                                 <div class="col-md-6 form-group">
                                     <label for="full_name">Father Name</label> <span style="color:red;">*</span>
                                     <input type="text" name="father_name" id="full_name" class="form-control"
-                                        placeholder="Applicant's Full Name" required>
+                                        placeholder="Father Name" required>
                                 </div>
                                 <div class="col-md-6 form-group">
                                     <label for="date_of_birth">Mother Name</label> <span style="color:red;">*</span>
                                     <input type="text" name="mother_name" id="full_name" class="form-control"
-                                        placeholder="Applicant's Full Name" required>
+                                        placeholder="Mother Name" required>
                                 </div>
 
                                 <div class="col-md-6 form-group">
                                     <label for="parent_name">Guardian Name</label>
                                     <input type="text" name="p_g_name" id="parent_name" class="form-control"
-                                        placeholder="Parent/Guardian Name">
+                                        placeholder="Guardian Name">
                                 </div>
                                 <div class="col-md-6 form-group">
                                     <label for="phone_number">Father / Mother / Guardian Contact Number</label> <span
@@ -129,7 +129,7 @@
                                     <label for="phone_number">Father / Mother / Guardian Alternate Contact
                                         Number</label>
                                     <input type="tel" name="alt_contact" id="phone_number" class="form-control"
-                                        placeholder="Contact Number" required maxlength="10" pattern="[0-9]{10}">
+                                        placeholder="Alternate Contact Number" required maxlength="10" pattern="[0-9]{10}">
                                 </div>
 
 
