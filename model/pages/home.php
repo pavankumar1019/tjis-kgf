@@ -41,7 +41,7 @@
        
           
             <p>
-              Founded by JGI, The Jain International School is one of the Best Schools in K.G.F aims for a holistic approach to educate and guide students with Karnataka State Board curriculum and that ensures comprehensive learning experience. Our school is a co-educational, day-boarding school. We set the highest standards for academic achievement, intellectual growth, ethical awareness and behavior, and sportsmanship for our students.
+              Founded by JGI, The Jain International School is one of the Best Schools in K.G.F aims for a holistic approach to educate and guide students with CBSE curriculum and that ensures comprehensive learning experience. Our school is a co-educational, day-boarding school. We set the highest standards for academic achievement, intellectual growth, ethical awareness and behavior, and sportsmanship for our students.
 
             </p>
           </div>
