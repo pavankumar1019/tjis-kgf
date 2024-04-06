@@ -14,7 +14,7 @@
       <div class="social-links">
         <a href="tel:+919845498660" class="phone"><i class="bx bxs-phone"></i></a>
        
-        <a href="mailto:thejaininternationalschoolkgf@gmail.com" class="email"><i class="bx bxs-envelope"></i></a>
+        <a href="mailto:tjis.kgf@gmail.com" class="email"><i class="bx bxs-envelope"></i></a>
 
       </div>
     </div>
@@ -268,7 +268,7 @@ Along with creating educational opportunities, Dr. Roychand also initiated angel
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>thejaininternationalschoolkgf@gmail.com</p>
+                <p>tjis.kgf@gmail.com</p>
               </div>
 
               <div class="phone">
