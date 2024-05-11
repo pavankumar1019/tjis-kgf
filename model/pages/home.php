@@ -5,7 +5,7 @@
       <img src="./images/JGI_logo___Low.png" width="100" alt=""> <br> <br>
       <h1>The Jain International School</h1>
       <p>The roots of education are bitter, but the fruit is sweet.</p> <br>
-      <h1>Affiliated to CBSE</h1>
+      <h3>Affiliated to CBSE</h1>
       <p>Affiliation no. 831382</p> <br>
       <button style="background: #0563bb;
       border: 0;
