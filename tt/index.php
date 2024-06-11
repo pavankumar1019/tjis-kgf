@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pkwebdev</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-
 </head>
 <body>
     
@@ -24,7 +23,8 @@ $classes = [
     '3rd Lang' => 2,
     'Library' => 1,
     'Value Education' => 1,
-    'Art Music & Dance' => 3,
+    'Art & Craft' => 3,
+    'Music & Dance' => 3,
     'CCA' => 2,
     'Computer' => 8,
 ];
@@ -46,6 +46,10 @@ foreach ($grades as $grade) {
         foreach ($classes as $class => $credits) {
             // Skip 2nd Lang and 3rd Lang for Grades 1 to 5
             if (in_array($grade, ['Grade 1', 'Grade 2', 'Grade 3', 'Grade 4', 'Grade 5']) && in_array($class, ['2nd Lang', '3rd Lang'])) {
+                continue;
+            }
+            // Skip Social for Grades 1 and 2
+            if (in_array($grade, ['Grade 1', 'Grade 2']) && $class === 'Social') {
                 continue;
             }
             // Add Kannada and Hindi for Grades 1 to 5
@@ -152,6 +156,10 @@ foreach ($grades as $grade) {
                     if (in_array($grade, ['Grade 1', 'Grade 2', 'Grade 3', 'Grade 4', 'Grade 5']) && in_array($class, ['2nd Lang', '3rd Lang'])) {
                         continue;
                     }
+                    // Skip Social for Grades 1 and 2
+                    if (in_array($grade, ['Grade 1', 'Grade 2']) && $class === 'Social') {
+                        continue;
+                    }
                     if ($weeklyClassCount[$grade][$section][$class] > 0 && canAssignClass($timetable, $grade, $section, $day, $period, $class)) {
                         // Assign class to the timetable
                         $timetable[$grade][$section][$day][$period] = [
@@ -224,11 +232,7 @@ foreach ($grades as $grade) {
 
 ?>
 
-
-
-
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 </body>
 </html>
-
