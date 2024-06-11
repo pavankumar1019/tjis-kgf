@@ -127,6 +127,9 @@ function assignPECombined(&$timetable, $grade1, $section1, $grade2, $section2, $
     $weeklyClassCount[$grade2][$section2][$class]--;
 }
 
+// Define the day for which you want to skip all classes
+$skipDay = 'Wednesday'; // Change this to the day you want to skip
+
 // Generate timetable for each grade and section
 foreach ($grades as $grade) {
     foreach ($sections as $section) {
@@ -134,6 +137,11 @@ foreach ($grades as $grade) {
         assignCCA($timetable, $grade, $section);
 
         foreach ($days as $day) {
+            // Skip the day if it matches the skipDay
+            if ($day === $skipDay) {
+                continue;
+            }
+            
             foreach ($periods as $period) {
                 // Skip CCA periods
                 if ($day === 'Saturday' && in_array($period, ['Period 4', 'Period 5'])) {
@@ -219,6 +227,11 @@ foreach ($grades as $grade) {
         echo "</tr>";
         
         foreach ($days as $day) {
+            // Skip displaying the day if it matches the skipDay
+            if ($day === $skipDay) {
+                continue;
+            }
+            
             echo "<tr><td>$day</td>";
             foreach ($periods as $period) {
                 $class = $timetable[$grade][$section][$day][$period]['class'] ?? '-';
