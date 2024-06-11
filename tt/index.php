@@ -18,6 +18,8 @@ $classes = [
     'Social' => 6,
     'PE' => 6,
     'English' => 6,
+    'Kannada' => 3,
+    'Hindi' => 3,
     '2nd Lang' => 3,
     '3rd Lang' => 2,
     'Library' => 1,
@@ -42,7 +44,16 @@ $weeklyClassCount = [];
 foreach ($grades as $grade) {
     foreach ($sections as $section) {
         foreach ($classes as $class => $credits) {
-            $weeklyClassCount[$grade][$section][$class] = $credits;
+            // Skip 2nd Lang and 3rd Lang for Grades 1 to 5
+            if (in_array($grade, ['Grade 1', 'Grade 2', 'Grade 3', 'Grade 4', 'Grade 5']) && in_array($class, ['2nd Lang', '3rd Lang'])) {
+                continue;
+            }
+            // Add Kannada and Hindi for Grades 1 to 5
+            if (in_array($grade, ['Grade 1', 'Grade 2', 'Grade 3', 'Grade 4', 'Grade 5']) && in_array($class, ['Kannada', 'Hindi'])) {
+                $weeklyClassCount[$grade][$section][$class] = $credits;
+            } else {
+                $weeklyClassCount[$grade][$section][$class] = $credits;
+            }
         }
     }
 }
@@ -85,11 +96,51 @@ function canAssignClass($timetable, $grade, $section, $day, $period, $class) {
     return true;
 }
 
+// Function to assign CCA on Saturday 4th and 5th period
+function assignCCA(&$timetable, $grade, $section) {
+    global $weeklyClassCount;
+    $day = 'Saturday';
+    $periods = ['Period 4', 'Period 5'];
+    foreach ($periods as $period) {
+        $timetable[$grade][$section][$day][$period] = [
+            'class' => 'CCA',
+        ];
+        $weeklyClassCount[$grade][$section]['CCA']--;
+    }
+}
+
+// Function to assign PE periods combined for specified grades and sections
+function assignPECombined(&$timetable, $grade1, $section1, $grade2, $section2, $day, $period) {
+    global $weeklyClassCount;
+    $class = 'PE';
+    $timetable[$grade1][$section1][$day][$period] = [
+        'class' => $class,
+    ];
+    $timetable[$grade2][$section2][$day][$period] = [
+        'class' => $class,
+    ];
+    $weeklyClassCount[$grade1][$section1][$class]--;
+    $weeklyClassCount[$grade2][$section2][$class]--;
+}
+
 // Generate timetable for each grade and section
 foreach ($grades as $grade) {
     foreach ($sections as $section) {
+        // Assign CCA on Saturday 4th and 5th period
+        assignCCA($timetable, $grade, $section);
+
         foreach ($days as $day) {
             foreach ($periods as $period) {
+                // Skip CCA periods
+                if ($day === 'Saturday' && in_array($period, ['Period 4', 'Period 5'])) {
+                    continue;
+                }
+                
+                // Skip already assigned periods for PE combined
+                if (isset($timetable[$grade][$section][$day][$period])) {
+                    continue;
+                }
+
                 // Shuffle the classes to ensure a random order for each period
                 $shuffledClasses = array_keys($classes);
                 shuffle($shuffledClasses);
@@ -97,6 +148,10 @@ foreach ($grades as $grade) {
                 // Attempt to assign a class with remaining credits
                 $assigned = false;
                 foreach ($shuffledClasses as $class) {
+                    // Skip 2nd Lang and 3rd Lang for Grades 1 to 5
+                    if (in_array($grade, ['Grade 1', 'Grade 2', 'Grade 3', 'Grade 4', 'Grade 5']) && in_array($class, ['2nd Lang', '3rd Lang'])) {
+                        continue;
+                    }
                     if ($weeklyClassCount[$grade][$section][$class] > 0 && canAssignClass($timetable, $grade, $section, $day, $period, $class)) {
                         // Assign class to the timetable
                         $timetable[$grade][$section][$day][$period] = [
@@ -113,6 +168,28 @@ foreach ($grades as $grade) {
                         'class' => '-',
                     ];
                 }
+            }
+        }
+    }
+}
+
+// Assign PE combined periods for specified grades and sections
+$combinedGradesSections = [
+    ['Grade 1', 'Section A', 'Grade 1', 'Section B'],
+    ['Grade 3', 'Section A', 'Grade 3', 'Section B'],
+    ['Grade 4', 'Section A', 'Grade 4', 'Section B'],
+];
+
+foreach ($combinedGradesSections as $pair) {
+    [$grade1, $section1, $grade2, $section2] = $pair;
+    foreach ($days as $day) {
+        foreach ($periods as $period) {
+            if (canAssignClass($timetable, $grade1, $section1, $day, $period, 'PE') &&
+                canAssignClass($timetable, $grade2, $section2, $day, $period, 'PE') &&
+                $weeklyClassCount[$grade1][$section1]['PE'] > 0 &&
+                $weeklyClassCount[$grade2][$section2]['PE'] > 0) {
+                assignPECombined($timetable, $grade1, $section1, $grade2, $section2, $day, $period);
+                break 2; // Move to the next pair once assigned
             }
         }
     }
@@ -146,6 +223,7 @@ foreach ($grades as $grade) {
 }
 
 ?>
+
 
 
 
