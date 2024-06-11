@@ -23,7 +23,7 @@ $classes = [
     'Library' => 1,
     'Value Education' => 1,
     'Art Music & Dance' => 3,
-    'CCA' => 3,
+    'CCA' => 2,
     'Computer' => 8,
 ];
 
